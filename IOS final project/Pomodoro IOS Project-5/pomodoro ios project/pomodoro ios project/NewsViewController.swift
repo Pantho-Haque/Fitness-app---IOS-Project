@@ -43,11 +43,11 @@ class NewsViewController: UIViewController {
             activityIndicator.startAnimating()
             self.view.isUserInteractionEnabled = false
             let headers = [
-                "X-RapidAPI-Key": "7cdec7e852msh32b7664656a6830p1f01dfjsn5b8785216636",
+                "X-RapidAPI-Key": "kk1",
                 "X-RapidAPI-Host": "live-fitness-and-health-news.p.rapidapi.com"
             ]
 
-            let url = URL(string: "https://newsapi.org/v2/top-headlines?country=us&category=health&apiKey=0123681d0fe94e1797020d2c150d8180")!
+            let url = URL(string: "https://newsapi.org/v2/top-headlines?country=us&category=health&apiKey=kk2")!
 
             var request = URLRequest(url: url)
             request.httpMethod = "GET"
@@ -125,3 +125,5 @@ class NewsViewController: UIViewController {
     }
 }
 // https://newsapi.org/s/us-health-news-api
+// replace kk1 with this 7cd-ec7-e852-msh-32b76-64-656-a683-0p1f0-1d-fjsn5-b87-85-216-636 to get actual functionable app . remove all hyphens.
+// replace kk2 with this 012-3-681-d0f-e94e-1797-020d2-c150-d818-0 to get actual functionable app . remove all hyphens.
