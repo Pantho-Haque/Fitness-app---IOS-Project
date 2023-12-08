@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>API_KEY</key>
-	<string>AIzaSyBiTGx7EJwpvXpdFrDipEs9Y0SwKCVj4t0</string>
+	<string>KK</string>
 	<key>GCM_SENDER_ID</key>
 	<string>267363582384</string>
 	<key>PLIST_VERSION</key>
@@ -28,3 +28,6 @@
 	<string>1:267363582384:ios:ea01ea23c75e6e787ed675</string>
 </dict>
 </plist>
+
+
+// kk must be replaced by AIza-SyBiT-Gx7EJwpvX-pd-FrDipEs9-Y0SwKCVj4-t0 to get actual functionable app . remove all hyphens.
